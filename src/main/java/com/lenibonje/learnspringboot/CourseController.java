@@ -13,7 +13,10 @@ public class CourseController {
     public List<Course> coursesList() {
         return Arrays.asList(
         new Course(1, "Spring boot","Mhindi" ) ,
-        new Course(2, "SwiftUI","mzungu" )
+        new Course(2, "SwiftUI","mzungu" ),
+        new Course(4, "Learn azure","error" ),
+        new Course(5, "Learn azure","error" ),
+        new Course(6, "Learn azure","error" )
         );
     }
 
